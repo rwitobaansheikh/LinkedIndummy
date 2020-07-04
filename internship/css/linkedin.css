@@ -1,0 +1,210 @@
+header{
+    height: 50px;
+    background: #283e4a;
+    margin: 0;
+    overflow: hidden;
+}
+body{
+    margin: 0;
+}
+#logo{
+    height: 30px;
+    width: 30px;
+    opacity: 1;
+}
+#inlogo{
+    float: left;
+    width: 30px;
+    height: 30px;
+    padding: 0%;
+    overflow: hidden;
+    margin-right: 3px;
+    opacity: 1.0;
+    margin-left: 12%;
+    margin-top: 8.5px;
+}
+.topnav p{
+    text-align: center;
+    font-size: 12px;
+    color: darkgoldenrod;
+    margin: 0;
+}
+#work, #try{
+    float: right;
+    opacity: 1.0;
+    display: inline-block;
+}
+#work{
+    margin-right: 2%;
+    margin-top: 6px;
+    opacity: 0.8;
+}
+#try{
+    font-size: 12px;
+    margin-top: 6px;
+    margin-right: 12%;
+    color: darkgoldenrod;
+    opacity:1;
+}
+#me{
+    float: right;
+    width: 30px;
+    height: 50px;
+    padding: 0%;
+    overflow: inherit;
+    margin-left: 1%;
+    margin-top: 6px;
+    opacity: 1;
+}
+
+#photo{
+    height: 19px;
+    width: 19px; 
+    border-radius: 50%;
+    border-style: solid;
+    border-color: floralwhite;
+    border-width: 1px;
+    display: inline-block;
+    opacity: 1;
+}
+.topnav {
+    overflow: auto;
+    background-color: transparent;
+}
+  
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 17px;
+    border: none;
+    margin-top: 6px;
+    margin-left: 2.5%;
+    opacity: 0.7;
+}
+.topnav input[type=text] {
+    padding: 6px;
+    border: 1px solid grey;
+    margin-top: 8px;
+    font-size: 16;
+    color: #283e4a;
+    background: #dce8f0;
+    border-color: #dce8f0;
+    border-radius: 1.5px;
+    margin-left: 0.5%; 
+    width: 20%;
+    height: 17px;
+    font-family: FontAwesome;
+}
+.topnav a:hover{
+    opacity: 1.0;
+}
+#try:hover{
+    text-decoration: underline;
+}
+a label{
+    font-size: 60%;
+    opacity: 0.7;
+}
+label:hover{
+    opacity:1;
+}
+#work:hover{
+    opacity:1;
+}
+.topnav a.active{
+    opacity: 1;
+}
+
+main{
+    margin:0% 10% 0% 12%;
+}
+.left {
+    float: left;
+    width: 15%;
+    padding: 10px;
+    height: 50vh;
+    margin: 0% 2% 0% 0%;
+    background-color: #ffffff;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2), 0 1px 6px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .center{
+    float: left;
+    width: 50%;
+    margin: 0% 2% 0% 0%;
+  }
+  
+  .content{
+      height: auto;
+      background-color: #ffffff;
+      /*box-shadow: 0px 1.6px 1.6px 1.6px #b6b2b2;*/
+      margin-top: 2%;
+      box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2), 0 1px 6px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .right{
+    float: left;
+    width: 25%;
+    height: 50vh;
+    background-color: #ffffff;
+    /*box-shadow: 0px 1.6px 1.6px 1.6px #b6b2b2;*/
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2), 0 1px 6px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 1%;
+  }
+@media screen and (max-width: 1200px)
+{
+    #photo{
+        height: 20px;
+        width: 20px; 
+        border-radius: 50%;
+        border-style: solid;
+        border-color: floralwhite;
+        border-width: 1px;
+        display: inline-block;
+    }
+
+    #work, #try{
+        float: right;
+        opacity: 1.0;
+        
+    }
+    
+    #try{
+        margin-right: 5%;
+    }
+    
+    #work{
+        margin-right: 2%;
+        margin-top: 6px;
+    }
+
+    .topnav a {
+        display: inline-block;
+        color: #ffffff;
+        text-align: center;
+        padding: 6px;
+        text-decoration: none;
+        font-size: 17px;
+        border: none;
+        margin-top: 8px;
+        margin-left: 1%;
+        opacity: 0.6;
+      }
+
+      #inlogo{
+        float: left;
+        width: 30px;
+        height: 30px;
+        padding: 0%;
+        overflow: hidden;
+        margin-right: 3px;
+        opacity: 1.0;
+        margin-left: 2%;
+    }
+}
+/*#0e76a8*/
